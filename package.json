@@ -73,7 +73,7 @@
     "@vaadin/vaadin-avatar": "23.3.5",
     "@vaadin/vaadin-board": "23.3.5",
     "@vaadin/vaadin-button": "23.3.5",
-    "@vaadin/vaadin-charts": "23.3.5",
+    "@vaadin/vaadin-charts": "6.2.4",
     "@vaadin/vaadin-checkbox": "23.3.5",
     "@vaadin/vaadin-combo-box": "23.3.5",
     "@vaadin/vaadin-confirm-dialog": "23.3.5",
@@ -119,6 +119,7 @@
     "@vaadin/virtual-list": "23.3.5",
     "construct-style-sheets-polyfill": "3.1.0",
     "date-fns": "2.29.3",
+    "line-awesome": "1.3.0",
     "lit": "2.6.1",
     "proj4": "2.8.1"
   },
@@ -257,7 +258,8 @@
     "@vaadin/multi-select-combo-box": "$@vaadin/multi-select-combo-box",
     "proj4": "$proj4",
     "@vaadin/tabsheet": "$@vaadin/tabsheet",
-    "@vaadin/tooltip": "$@vaadin/tooltip"
+    "@vaadin/tooltip": "$@vaadin/tooltip",
+    "line-awesome": "$line-awesome"
   },
   "vaadin": {
     "dependencies": {
@@ -332,7 +334,7 @@
       "@vaadin/vaadin-avatar": "23.3.5",
       "@vaadin/vaadin-board": "23.3.5",
       "@vaadin/vaadin-button": "23.3.5",
-      "@vaadin/vaadin-charts": "23.3.5",
+      "@vaadin/vaadin-charts": "6.2.4",
       "@vaadin/vaadin-checkbox": "23.3.5",
       "@vaadin/vaadin-combo-box": "23.3.5",
       "@vaadin/vaadin-confirm-dialog": "23.3.5",
@@ -378,6 +380,7 @@
       "@vaadin/virtual-list": "23.3.5",
       "construct-style-sheets-polyfill": "3.1.0",
       "date-fns": "2.29.3",
+      "line-awesome": "1.3.0",
       "lit": "2.6.1",
       "proj4": "2.8.1"
     },
@@ -397,6 +400,6 @@
       "workbox-core": "6.5.4",
       "workbox-precaching": "6.5.4"
     },
-    "hash": "53d24d68eb686d78234ccf1d22a3a324c75ff35128996898cf7c3574b1567cb0"
+    "hash": "9b1651d717d94bb6f59bf93168db83aaa2d352a684516b84981efb72a66a644c"
   }
 }

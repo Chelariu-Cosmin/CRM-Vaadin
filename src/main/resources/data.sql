@@ -1,16 +1,16 @@
-INSERT INTO "STATUS" VALUES
+INSERT INTO "status" VALUES
 (1, 1, 'Imported lead'),
 (2, 1, 'Not contacted'),
 (3, 1, 'Contacted'),
 (4, 1, 'Customer'),
 (5, 1, 'Closed (lost)');
-INSERT INTO "COMPANY" VALUES
+INSERT INTO "company" VALUES
 (6, 1, 'Phillips Van Heusen Corp.'),
 (7, 1, 'Avaya Inc.'),
 (8, 1, 'Laboratory Corporation of America Holdings'),
 (9, 1, 'AutoZone, Inc.'),
 (10, 1, 'Linens ''n Things Inc.');   
-INSERT INTO "CONTACT" VALUES
+INSERT INTO "contact" VALUES
 (11, 1, 'eula.lane@jigrormo.ye', 'Eula', 'Lane', 8, 1),
 (12, 1, 'barry.rodriquez@zun.mm', 'Barry', 'Rodriquez', 7, 5),
 (13, 1, 'eugenia.selvi@capfad.vn', 'Eugenia', 'Selvi', 6, 3),
