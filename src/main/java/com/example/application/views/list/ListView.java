@@ -1,9 +1,9 @@
 package com.example.application.views.list;
 
+import com.example.application.MainLayout;
 import com.example.application.data.entity.Contact;
 import com.example.application.data.service.CRMService;
 import com.vaadin.flow.component.Component;
-import com.vaadin.flow.component.ComponentEvent;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
@@ -12,8 +12,8 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
+
 import javax.annotation.security.PermitAll;
 
 @org.springframework.stereotype.Component

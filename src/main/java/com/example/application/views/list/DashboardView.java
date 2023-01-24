@@ -1,5 +1,6 @@
 package com.example.application.views.list;
 
+import com.example.application.MainLayout;
 import com.example.application.data.service.CRMService;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.charts.Chart;
