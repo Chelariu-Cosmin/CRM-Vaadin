@@ -6,6 +6,7 @@ import com.example.application.views.list.ListView;
 import com.example.application.views.list.ReportView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
+import com.vaadin.flow.component.avatar.Avatar;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
@@ -39,8 +40,13 @@ public class MainLayout extends AppLayout {
         H1 logo = new H1 ("Vaadin CRM");
         logo.addClassNames ("text-l", "m-m");
 
+        Avatar avatar = new Avatar("Chelariu Cosmin");
+        Button actionButton = new Button("enable/disable", event -> {
+            avatar.setTooltipEnabled (!avatar.isTooltipEnabled ());
+        });
+
         Button logOut = new Button ("Log out",e -> securityService.logout () );
-        HorizontalLayout header = new HorizontalLayout (new DrawerToggle (), logo, logOut);
+        HorizontalLayout header = new HorizontalLayout (new DrawerToggle (), logo, avatar, logOut);
 
         header.setDefaultVerticalComponentAlignment (FlexComponent.Alignment.CENTER);
         header.expand (logo);
